@@ -10,8 +10,6 @@ function App() {
          .catch(error => console.log('error to obtain api data', error))
    }, [])
 
-   console.log(apodData)
-
    return (
       <div className='app'>
          <h1>Astronomy Picture of the Day</h1>

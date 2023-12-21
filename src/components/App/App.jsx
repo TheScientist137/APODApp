@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { getApodData } from '../../util/apod'
 import { IoIosHeart } from 'react-icons/io';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 import './App.css'
 
@@ -36,10 +36,10 @@ function App() {
             <p className='date'>{apodData.date}</p>
          </div>
          <div className='change-image-container'>
-            <button className='change-image' onClick={() => changeDay(-1)}>{'<'}</button>
+            <button className='change-image' onClick={() => changeDay(-1)}>{<FaArrowLeft />}</button>
             {date === today
             ? <button className='hidden'>{}</button>
-            : <button className='change-image' onClick={() => changeDay(1)}>{'>'}</button> }
+            : <button className='change-image' onClick={() => changeDay(1)}>{<FaArrowRight />}</button> }
          </div>
          <footer className='footer'>
             <h5 className='code-author'>Made with  <IoIosHeart className='heart' />  by Guillermo Casado</h5>

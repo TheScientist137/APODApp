@@ -7,12 +7,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(6, 0, 12);
 }
 
 .app-title {
   margin: 1.6rem 0;
   font-family: 'Geostar Fill';
   font-size: 1.5rem;
+  color: aliceblue;
 }
 
 .image-container {
@@ -28,6 +30,7 @@
 .image-title {
   margin-bottom: 0.5rem;
   font-family: 'Oswald';
+  color: aliceblue;
 }
 
 .image-link {
@@ -44,10 +47,6 @@
   border-radius: 2%;
 }
 
-.image-click:hover {
-  color: darkblue;
-}
-
 .change-image-container {
   margin-bottom: 1.6rem;
   width: 100%;
@@ -60,14 +59,11 @@
   background-color: transparent;
   font-size: 2.5rem;
   cursor: pointer;
+  color: aliceblue;
 }
 
 .hidden {
   display: none;
-}
-
-.change-image:hover {
-  color: darkslateblue;
 }
 
 .description-container {
@@ -82,16 +78,19 @@
   font-family: 'Oswald';
   margin-bottom: 0.8rem;
   text-align: start;
+  color: aliceblue;
 }
 
 .author {
   font-family: 'Coustard';
   margin-bottom: 0.5rem;
   font-size: large;
+  color: aliceblue;
 }
 
 .date {
   font-style: oblique;
+  color: aliceblue;
 }
 
 .footer {
@@ -108,6 +107,7 @@
 .code-author {
   margin-left: 2rem;
   font-size: medium;
+  color: aliceblue;
 }
 
 .heart {
@@ -123,7 +123,7 @@
 .icon {
   height: 2rem;
   width: 2rem;
-  color: black;
+  color: aliceblue;
 }
 
 .linkedin {

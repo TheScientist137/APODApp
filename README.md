@@ -25,11 +25,14 @@ To run this project locally, follow these steps:
 `git clone https://github.com/TheScientist137/APODApp.git`
 
 2. Navigate to the project directory:
+`cd your-repository`
 
-```bash
-cd your-repository
+3. Install dependencies:
+`npm install`
 
-3. Install dependencies
+## Usage
+After completing the installations steps, you can start the development server:
+`npm run dev`
+This command will start the development server and open the app in your default web browser. You can then view the APOD images and descriptions.
 
-```bash
-npm install
+

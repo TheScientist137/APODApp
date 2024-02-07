@@ -13,6 +13,7 @@ function App() {
    const changeDay = (day) => {
       const currentDate = new Date(date)
       currentDate.setDate(currentDate.getDate() + day)
+      
       const formatDay = currentDate.toISOString().split('T')[0]
       setNewDate(formatDay)
    }
@@ -42,7 +43,7 @@ function App() {
             : <button className='change-image' onClick={() => changeDay(1)}>{<FaArrowRight />}</button> }
          </div>
          <footer className='footer'>
-            <h5 className='code-author'>Made with  <IoIosHeart className='heart' />  by Guillermo Casado</h5>
+            <h5 className='code-author'>Made with <IoIosHeart className='heart' /> by Guillermo Casado</h5>
             <div className='icon-container'>
                <a href='https://www.linkedin.com/in/guillermo-casado-noya-209b45268/'><FaLinkedin className='icon linkedin' /></a>
                <a href='https://github.com/TheScientist137'><FaGithub className='icon' /></a>

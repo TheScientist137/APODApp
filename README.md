@@ -1,4 +1,4 @@
-# Astronomy Pîcture Of The Day (APOD)
+# Astronomy Picture Of The Day (APOD)
 
 Welcome to the Astronomy Picture of the Day (APOD) app! This project is a web application that utilizes React and Vite to display NASA's Astronomy Picture of the Day along with its description.
 

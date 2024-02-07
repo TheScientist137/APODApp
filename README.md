@@ -15,7 +15,7 @@ Welcome to the Astronomy Picture of the Day (APOD) app! This project is a web ap
 https://apodapp137.netlify.app/
 
 ## Features
-- Display NASA's Astronomy Picture of the Day
+- Display NASA's Astronomy Picture of the Day from today
 - Read the description of each picture to learn more about it
 
 ## Installation
@@ -25,3 +25,13 @@ To run this project locally, follow these steps:
 
 ```bash
 git clone https://github.com/TheScientist137/APODApp.git
+
+2. Navigate to the project directory:
+
+```bash
+cd your-repository
+
+3. Install dependencies
+
+```bash
+npm install
